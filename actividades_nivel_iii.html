@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>Actividades nivel III | Ciudadanía digital 8vo grado EBI </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="Hernandez Santiago" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.9 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+    </head>
+<body class="exe-web-site" id="exe-node-10"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header" ><div id="headerContent">Ciudadanía digital 8vo grado EBI</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Inicio</a></li>
+   <li><a href="descripcin_del_recurso.html" class="no-ch">Descripción del recurso</a></li>
+   <li><a href="introduccin.html" class="no-ch">Introducción</a></li>
+   <li><a href="gua_docente.html" class="no-ch">Guía docente</a></li>
+   <li><a href="actividades_para_estudiantes.html" class="no-ch">Actividades para estudiantes</a></li>
+   <li><a href="actividades_nivel_i.html" class="no-ch">Actividades nivel I</a></li>
+   <li><a href="actividades_nivel_ii.html" class="no-ch">Actividades Nivel II</a></li>
+   <li id="active"><a href="actividades_nivel_iii.html" class="active no-ch">Actividades nivel III</a></li>
+   <li><a href="evaluacin_sugerida.html" class="no-ch">Evaluación sugerida</a></li>
+   <li><a href="bibliografa.html" class="no-ch">Bibliografía</a></li>
+   <li><a href="descargar_recurso.html" class="no-ch">Descargar recurso</a></li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="actividades_nivel_ii.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="evaluacin_sugerida.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">Actividades nivel III</h1></header>
+<article class="iDevice_wrapper textIdevice" id="id10">
+<div class="iDevice emphasis0" >
+<div id="ta10_128_2" class="block iDevice_content">
+<div class="exe-text"><!-- Actividad avanzada: Completar espacios en blanco -->
+<div style="background-color: #f0f9ff; padding: 20px; border-radius: 8px; border-left: 4px solid #3b82f6; margin-bottom: 30px;">
+<h3 style="color: #1e40af; margin-bottom: 15px;">Actividad Avanzada: Completá el texto</h3>
+<!-- Texto fuente -->
+<div style="background-color: #dbeafe; padding: 20px; border-radius: 6px; font-size: 15px; line-height: 1.6; margin-bottom: 20px;"><strong>Lectura previa:</strong><br /><br />Antes de compartir algo en redes sociales, es importante <strong>pensar</strong> en las consecuencias. Una vez publicado, ese contenido puede ser <strong>compartido</strong> por muchas personas sin nuestro control. Además, es fundamental <strong>evitar</strong> publicar fotos o datos de otras personas sin su <strong>permiso</strong>. Estas acciones promueven un entorno digital más seguro y respetuoso.</div>
+<!-- Instrucción -->
+<p style="color: #374151; margin-bottom: 20px;">Leé el texto anterior y completá los espacios vacíos del siguiente párrafo con las palabras adecuadas.</p>
+<!-- Párrafo para completar -->
+<div style="background-color: #dbeafe; padding: 20px; border-radius: 6px; font-size: 15px; line-height: 1.7;">En redes sociales, es importante <input type="text" id="blank1" style="width: 120px; padding: 5px; font-size: 14px;" /> antes de publicar, ya que el contenido puede ser <input type="text" id="blank2" style="width: 120px; padding: 5px; font-size: 14px;" /> por muchas personas. También se debe <input type="text" id="blank3" style="width: 120px; padding: 5px; font-size: 14px;" /> el uso de imágenes de otras personas sin su <input type="text" id="blank4" style="width: 120px; padding: 5px; font-size: 14px;" />.</div>
+<button onclick="checkFillInBlanks()" style="margin-top: 15px; background-color: #1e40af; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer;"> Verificar respuestas </button>
+<div id="fill-feedback" style="display: none; margin-top: 20px; padding: 15px; border-radius: 6px; font-size: 14px;"></div>
+</div>
+<p>
+<script>
+function checkFillInBlanks() {
+    const answers = {
+        blank1: "pensar",
+        blank2: "compartido",
+        blank3: "evitar",
+        blank4: "permiso"
+    };
+
+    let correctCount = 0;
+    const total = Object.keys(answers).length;
+
+    for (let key in answers) {
+        const input = document.getElementById(key);
+        if (input.value.trim().toLowerCase() === answers[key]) {
+            input.style.backgroundColor = "#d1fae5";
+            input.style.color = "#065f46";
+            input.style.border = "1px solid #10b981";
+            correctCount++;
+        } else {
+            input.style.backgroundColor = "#fee2e2";
+            input.style.color = "#991b1b";
+            input.style.border = "1px solid #ef4444";
+        }
+    }
+
+    const feedback = document.getElementById("fill-feedback");
+    feedback.style.display = "block";
+
+    if (correctCount === total) {
+        feedback.style.backgroundColor = "#d1fae5";
+        feedback.style.color = "#065f46";
+        feedback.style.border = "1px solid #10b981";
+        feedback.innerHTML = "✅ ¡Excelente! Completaste todas las palabras correctamente. Estás demostrando comprensión y compromiso con el uso responsable de redes.";
+    } else if (correctCount >= 2) {
+        feedback.style.backgroundColor = "#fef9c3";
+        feedback.style.color = "#92400e";
+        feedback.style.border = "1px solid #facc15";
+        feedback.innerHTML = `🔄 ¡Bien! Completaste ${correctCount} de ${total} correctamente. Revisá los espacios marcados en rojo y volvé a intentarlo. Si tenés dudas, podés consultarlo con un profesor o un adulto de confianza.`;
+    } else {
+        feedback.style.backgroundColor = "#fee2e2";
+        feedback.style.color = "#991b1b";
+        feedback.style.border = "1px solid #ef4444";
+        feedback.innerHTML = `⚠️ Solo completaste correctamente ${correctCount} de ${total}. Te sugerimos releer el texto fuente con atención. Si necesitás ayuda, hablalo con tu profesor, adscripto o un adulto responsable.`;
+    }
+}
+</script>
+</p></div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice" id="id11">
+<div class="iDevice emphasis0" >
+<div id="ta11_129_2" class="block iDevice_content">
+<div class="exe-text"><!-- Actividad Avanzada Nivel III: Tomá decisiones conscientes -->
+<div style="background-color: #fff7ed; padding: 20px; border-radius: 8px; border-left: 4px solid #f97316; margin-bottom: 30px;">
+<h3 style="color: #ea580c; margin-bottom: 15px;">Actividad Avanzada: Tomá decisiones conscientes</h3>
+<!-- Contexto -->
+<div style="background-color: #ffedd5; padding: 20px; border-radius: 6px; font-size: 15px; line-height: 1.6; margin-bottom: 20px;"><strong>Situación:</strong><br /><br />Estás en recreo usando tu Ceibalita cuando recibís un correo institucional que promete una bicicleta gratis si completás unos datos. No hay remitente claro y hay errores de redacción. Recordás que nunca participaste en sorteos y que tus docentes advierten sobre este tipo de mensajes. Decidís actuar con responsabilidad.</div>
+<!-- Instrucción -->
+<p style="color: #374151; margin-bottom: 20px;">Completá los espacios con las palabras más adecuadas y luego verificá tus elecciones. Reflexioná sobre cada decisión.</p>
+<!-- Texto a completar -->
+<div style="background-color: #fffbeb; padding: 20px; border-radius: 6px; font-size: 15px; line-height: 1.7;">Cuando recibimos mensajes que prometen premios sin explicación clara, debemos <input type="text" id="blank1" style="width: 130px; padding: 5px;" placeholder="________" /> antes de actuar. Es importante no <input type="text" id="blank2" style="width: 130px; padding: 5px;" placeholder="________" /> ningún enlace sin estar seguros de su origen. Si tenemos dudas, lo mejor es <input type="text" id="blank3" style="width: 130px; padding: 5px;" placeholder="________" /> con un profesor, el POITE o un adulto de confianza. Estas decisiones muestran que somos <input type="text" id="blank4" style="width: 130px; padding: 5px;" placeholder="________" /> digitales responsables.</div>
+<button onclick="checkPhishingBlanks()" style="margin-top: 15px; background-color: #ea580c; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer;"> Verificar respuestas </button> <!-- Feedback -->
+<div id="phishing-feedback" style="display: none; margin-top: 20px; padding: 15px; border-radius: 6px; font-size: 14px;"></div>
+<!-- Reflexión adicional -->
+<div id="phishing-reflection" style="display: none; margin-top: 20px; padding: 15px; border-radius: 6px; background-color: #f0f9ff; color: #1e40af; font-size: 14px;">
+<h4 style="margin-top: 0;">Reflexión adicional</h4>
+<span data-exe-editor-type="exe-editor-textarea" id="reflection-text" style="width: 100%; height: 100px; padding: 8px; border: 1px solid #93c5fd; border-radius: 4px;" placeholder="Describí tres acciones concretas que implementarías al recibir un mensaje sospechoso..."><!--exe-editor-textarea--></span> <button onclick="submitReflection()" style="margin-top: 10px; background-color: #1e40af; color: white; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer;"> Enviar reflexión </button>
+<div id="reflection-feedback" style="display: none; margin-top: 10px; padding: 10px; background-color: #d1fae5; color: #065f46; border: 1px solid #10b981; border-radius: 4px; font-size: 13px;"></div>
+</div>
+</div>
+<!-- Nueva Actividad Avanzada Nivel III: Uso de modo incógnito -->
+<div style="background-color: #fff1f2; padding: 20px; border-radius: 8px; border-left: 4px solid #dc2626; margin-bottom: 30px;">
+<h3 style="color: #b91c1c; margin-bottom: 15px;">Actividad Avanzada: Navegación en modo incógnito</h3>
+<!-- Contexto -->
+<div style="background-color: #fee2e2; padding: 20px; border-radius: 6px; font-size: 15px; line-height: 1.6; margin-bottom: 20px;"><strong>Situación:</strong><br /><br />Usás una Ceibalita prestada en la sala de informática y decidís abrir una pestaña en modo incógnito para que no queden guardadas tus contraseñas ni el historial. Pensás que así proteges tu privacidad, pero recordás que algunas funciones de CREA pueden requerir guardar datos localmente.</div>
+<!-- Instrucción -->
+<p style="color: #374151; margin-bottom: 20px;">Seleccioná la opción que mejor refleje tu decisión y luego leé la retroalimentación para profundizar:</p>
+<!-- Opciones -->
+<div style="margin-bottom: 15px;"><label style="display: block; margin-bottom: 8px;"> <input type="radio" name="incog" value="a" onchange="checkIncognitoAnswer('a')" /> Solo usás modo incógnito sin más, así garantiza que no quedan rastros en el dispositivo. </label> <label style="display: block; margin-bottom: 8px;"> <input type="radio" name="incog" value="b" onchange="checkIncognitoAnswer('b')" /> Abrís en incógnito, pero también cerrás sesión y borrás caché al finalizar para máxima seguridad. </label> <label style="display: block; margin-bottom: 8px;"> <input type="radio" name="incog" value="c" onchange="checkIncognitoAnswer('c')" /> No usás incógnito porque puede limitar funciones; confías en no guardar nada que no quieras. </label></div>
+<!-- Feedback -->
+<div id="incog-feedback" style="display: none; padding: 15px; border-radius: 6px; font-size: 14px;"></div>
+</div>
+<p>
+<script>
+function checkPhishingBlanks() {
+  const expected = {
+    blank1: ["pensar", "reflexionar", "detenerse", "pausar"],
+    blank2: ["visualizado", "visto", "compartido", "mostrado"],
+    blank3: ["evitar", "restringir", "no usar", "omitir"],
+    blank4: ["consentimiento", "autorización", "permiso", "aprobación"]
+  };
+  let score = 0, total = Object.keys(expected).length;
+
+  for (let key in expected) {
+    const input = document.getElementById(key);
+    const val = input.value.trim().toLowerCase();
+    if (expected[key].includes(val)) {
+      input.style.backgroundColor = "#d1fae5";
+      input.style.color = "#065f46";
+      input.style.border = "1px solid #10b981";
+      score++;
+    } else {
+      input.style.backgroundColor = "#fee2e2";
+      input.style.color = "#991b1b";
+      input.style.border = "1px solid #ef4444";
+    }
+  }
+
+  const fb = document.getElementById("phishing-feedback");
+  fb.style.display = "block";
+
+  if (score === total) {
+    fb.style.backgroundColor = "#f0fdf4";
+    fb.style.color = "#065f46";
+    fb.style.border = "1px solid #10b981";
+    fb.innerText = "✅ Todas tus respuestas son válidas. Excelente reflexión sobre la publicación responsable en redes.";
+  } else if (score >= total - 1) {
+    fb.style.backgroundColor = "#fffbeb";
+    fb.style.color = "#92400e";
+    fb.style.border = "1px solid #facc15";
+    fb.innerText = `🟡 Respuestas correctas: ${score}/${total}. Revisá cuál falta y recordá que varias formas expresan la misma idea.`;
+  } else {
+    fb.style.backgroundColor = "#fef2f2";
+    fb.style.color = "#991b1b";
+    fb.style.border = "1px solid #ef4444";
+    fb.innerText = `🔴 Solo ${score}/${total} correctas. Pensá en sinónimos comunes y en el contexto antes de volver a intentar.`;
+  }
+}
+</script>
+</p></div>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="actividades_nivel_ii.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="evaluacin_sugerida.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<p id="made-with-eXe"><a href="https://exelearning.net/" target="_blank" rel="noopener"><span>Creado con eXeLearning<span> (Ventana nueva)</span></span></a></p><script type="text/javascript" src="_style_js.js"></script></body></html>
